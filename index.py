@@ -9,10 +9,10 @@ client.start()
 
 client.stop()
 
-print('Бот запущен, теперь ты - Гуль')
+print('Бот запущен, теперь ты - Хуй')
 
 
-@client.on_message(filters.regex('Я гуль|я гуль') & filters.me)
+@client.on_message(filters.regex('Я гуль|я хуй') & filters.me)
 def ghoul_spam_handler(client, message):
     i = 1000
     while i > 0:
